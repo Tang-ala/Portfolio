@@ -1,7 +1,7 @@
 import React from "react";
 
 const Hero = () => (
-  <section id="home" className="hero text-black py-16 fade-in">
+  <section id="home" className="hero text-black py-16 pt-32 fade-in">
     <div className="container mx-auto px-2 flex flex-col-reverse md:flex-row items-center justify-between gap-12">
       <div className=" mx-auto hero-content text-center md:text-left max-w-xl">
         <h1 className="hero-title text-blue-900 md:text-4xl font-bold mb-4 fade-in">
