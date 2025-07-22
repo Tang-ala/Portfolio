@@ -107,7 +107,7 @@ const Footer = () => {
               réservés.
             </p>
             <p className="text-blue-300">
-              Fait avec ❤️ à Antananarivo, Madagascar
+              Fait avec ❤️ à Fianarantsoa, Madagascar
             </p>
           </div>
         </div>
