@@ -1,5 +1,6 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import moi from "./../assets/images/me.jpg"
 
 
 const About = () => (
@@ -12,7 +13,7 @@ const About = () => (
         <div className="relative w-64 h-64 transform transition-all duration-500 hover:scale-110 hover:rotate-3 md:mx-auto">
           <div className="w-full h-full rounded-full overflow-hidden shadow-2xl border-4 border-white bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400 p-1">
             <img
-              src="/images/me.jpg"
+              src={moi}
               alt="Moi"
               className="w-full h-full object-cover rounded-full"
             />

@@ -1,4 +1,8 @@
 import React from "react";
+import ecommerce from "./../assets/images/ecommerce.png";
+import egaz from "./../assets/images/egaz.jpg";
+import wifizone from "./../assets/images/wifizone.jpg";
+import portfolio from "./../assets/images/portfolio.png";
 
 const projects = [
   {
@@ -6,27 +10,27 @@ const projects = [
     description:
       "Site web d'une boutique de la vente des sneakers avec panier et gestion de prix",
     link: "https://github.com/Tang-ala/TechWebAvance",
-    image: "/images/ecommerce.png", 
+    image: ecommerce, 
   },
   {
     title: "E-gaz App",
     description:
       "Application mobile de gestion de vente et évaluation des bouteilles de vitogaz",
     link: "https://github.com/Tang-ala/Egaz",
-    image: "/images/egaz.jpg",
+    image: egaz,
   },
   {
     title: "Wifizone",
     description:
       "Application mobile de gestion de vente et évaluation des tickets pour un marchand",
     link: "https://github.com/JugheadStrix/wifizone",
-    image: "/images/wifizone.jpg",
+    image: wifizone,
   },
   {
     title: "Portfolio Web",
     description: "Site personnel moderne",
     link: "https://github.com/Tang-ala/Portfolio",
-    image: "/images/portfolio.png",
+    image: portfolio,
   },
 ];
 
